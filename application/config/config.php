@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url']	= 'http://www.myfiles.com.br/';
+$config['base_url']	= 'https://myfiles-codeigniter.appspot.com/';
 /*
 |--------------------------------------------------------------------------
 | Index File

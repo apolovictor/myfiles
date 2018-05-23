@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url']	= 'http://localhost/www.myfiles.com.br/';
+$config['base_url']	= 'http://www.myfiles.com.br/';
 /*
 |--------------------------------------------------------------------------
 | Index File

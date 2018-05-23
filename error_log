@@ -1,0 +1,218 @@
+[21-Jan-2014 21:06:41 UTC] PHP Fatal error:  Call to undefined function apache_get_modules() in /home/icetecba/public_html/cetecadmin/ver.php on line 2
+[21-Jan-2014 22:03:57 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/icetecba/public_html/cetecadmin/application/views/default/top.php on line 78
+[22-May-2014 22:33:59 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/icetecba/public_html/cetecadmin/application/controllers/student.php on line 118
+[09-Jul-2014 14:59:01 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/controllers/student.php on line 44
+[09-Jul-2014 14:59:42 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/controllers/student.php on line 44
+[09-Jul-2014 15:20:03 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[09-Jul-2014 15:53:42 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[09-Jul-2014 19:34:48 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 08:54:02 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 08:54:32 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 08:54:52 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 09:13:22 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 09:16:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 09:16:43 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 10:00:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 10:00:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 10:34:46 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 10:49:06 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[10-Jul-2014 10:51:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/icetecba/public_html/cetecadmin/application/views/student/documentation.php on line 360
+[12-Sep-2014 09:46:38 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://177.43.1...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:14:04 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://177.43.1...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:19:01 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://177.42.2...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:19:54 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://177.42.2...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:20:22 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/controllers/student.php:714
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://177.42.2...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(714): SoapClient->__call('send_sms_app', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(714): SoapClient->send_sms_app(Array)
+#3 [internal function]: Student->make_sendSMS()
+#4 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/icetecba/public_html/cetecadmin/index.php(205): require_once('/home/icetecba/...')
+#6 {main}
+  thrown in /home/icetecba/public_html/cetecadmin/application/controllers/student.php on line 714
+[12-Sep-2014 12:22:36 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.goog...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:28:05 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.goog...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:51:09 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.goog...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:52:41 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.goog...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:54:24 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.goog...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 12:57:07 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.goog...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[12-Sep-2014 13:07:58 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ''uri'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 70
+[12-Sep-2014 13:07:59 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ''uri'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 70
+[16-Sep-2014 20:13:30 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[16-Sep-2014 20:18:32 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[16-Sep-2014 20:18:49 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[16-Sep-2014 20:18:49 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://www.cete...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[22-Sep-2014 21:08:11 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://cetecbah...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[22-Sep-2014 21:08:34 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://cetecbah...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78
+[22-Sep-2014 21:11:30 America/Sao_Paulo] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php:78
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://smsmaisi...', 'http://cetecbah...', 1, 0)
+#1 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->__call('check_credit_ap...', Array)
+#2 /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php(78): SoapClient->check_credit_app(Array)
+#3 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(833): include('/home/icetecba/...')
+#4 /home/icetecba/public_html/cetecadmin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#5 /home/icetecba/public_html/cetecadmin/application/controllers/student.php(680): CI_Loader->view('student/sendSMS', Array)
+#6 [internal function]: Student->sendSMS()
+#7 /home/icetecba/public_html/cetecadmin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#8 /home/icetecba/p in /home/icetecba/public_html/cetecadmin/application/views/student/sendSMS.php on line 78

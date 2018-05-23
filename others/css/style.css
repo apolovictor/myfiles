@@ -1,0 +1,242 @@
+
+.nav>li>a {
+    padding: 5px 15px
+}
+
+@media print {
+    .nav>li>a {
+        padding: 1px 15px;
+    }
+}
+
+.navbar {
+    min-height: 65px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+    -moz-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+    box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+    position: relative;
+}
+
+.navbar-nav>li>a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #464646;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px
+}
+
+@media(min-width:768px) {
+    .navbar-nav>li>a {
+        padding-top: 25px
+    }
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #464646
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #000
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #000;
+    border-bottom-color: #000
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    color: #464646
+}
+
+@media(max-width:767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #428bca
+    }
+}
+
+.navbar-header {
+    min-height: 65px
+}
+
+.navbar .navbar-brand {
+    display: block;
+    width: 117px;
+    height: 33px;
+    margin-right: 50px
+}
+
+::-webkit-input-placeholder {
+    padding-top: 4px
+}
+
+:-moz-placeholder {
+    padding-top: 4px
+}
+
+::-moz-placeholder {
+    padding-top: 4px
+}
+
+:-ms-input-placeholder {
+    padding-top: 4px
+}
+
+@media(max-width:768px) {
+    .nav.navbar-right {
+        display: none
+    }
+}
+
+.nav.navbar-right>li>a {
+    padding-left: 2px;
+    padding-right: 2px
+}
+
+.navbar-toggle {
+    margin-top: 16px
+}
+
+.navbar-inverse {
+    border: 0
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+    background-color: #fff
+}
+
+.navbar-inverse .navbar-toggle.collapsed:hover .icon-bar {
+    background-color: #fff !important
+}
+
+.navbar-inverse .navbar-toggle.collapsed:focus .icon-bar,
+.navbar-inverse .navbar-toggle.collapsed:active .icon-bar {
+    background-color: #333 !important
+}
+
+.navbar-inverse .navbar-toggle.mobile-deactivated:focus .icon-bar,
+.navbar-inverse .navbar-toggle.mobile-deactivated:active .icon-bar,
+.navbar-inverse .navbar-toggle.mobile-deactivated:hover .icon-bar {
+    background-color: #333 !important
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background: #fff
+}
+
+.navbar-nav>li>.dropdown-menu {
+    text-align: left
+}
+
+.navbar-collapse {
+    -webkit-overflow-scrolling: touch
+}
+
+@media(max-width:768px) {
+    .navbar-nav>li>.dropdown-menu .dd-tip {
+        display: none
+    }
+}
+
+.navbar-nav>li>.dropdown-menu>li>a {
+    text-decoration: none
+}
+
+@media(max-width:1000px) {
+    .navbar-right {
+        display: none
+    }
+}
+
+.navbar-search{
+    margin-bottom: 0;
+    padding: 4px 6px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.navbar-search a{
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    color: #1485c3
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    margin-top: -0.22em
+}
+
+.navbar-inverse .navbar-nav>.open>a .caret,
+.navbar-inverse .navbar-nav>.open>a:hover .caret,
+.navbar-inverse .navbar-nav>.open>a:focus .caret {
+    border-top-color: #1485c3;
+    border-bottom-color: #1485c3
+}
+
+.navbar-inverse .navbar-toggle.collapsed:focus,
+.navbar-inverse .navbar-toggle.collapsed:active {
+    background-color: #fff !important
+}
+
+.navbar-inverse .navbar-toggle.mobile-deactivated:active,
+.navbar-inverse .navbar-toggle.mobile-deactivated:hover,
+.navbar-inverse .navbar-toggle.mobile-deactivated:focus {
+    background-color: #fff !important
+}
+
+.titlePage{
+    border-bottom: 1px solid #ee7d17;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.buttonDiv{
+    margin-top: 20px;
+    float: right;
+    
+}
+
+#configDrive{
+    
+    width: 100px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#configDrive2{
+    
+    width: 90px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    
+}
+
+#buttonNewEnvelop{
+    
+    float: right;
+    
+}

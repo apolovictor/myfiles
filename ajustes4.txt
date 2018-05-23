@@ -1,0 +1,111 @@
+Status especifico para reprovação de produtos.
+
+Na função checkOut, analisar os tipos de verificações, pois uma ordem registrada tem tempo de expiração.
+O sistema está enxergando apenas a existência do pedido e dando continuidade ao pagamento.
+
+Colocar descontos embaixo dos valores nas views, apenas a index está aparecendo.
+
+Quando o botão para finalizar compra é clicado mais de uma vez, mais de uma ordem de pedido é gerada. ok17:58 25/07/2017
+
+Alterar as configurações de email e username, register, update.
+
+-- Datas -- 
+Data da venda		- date_register ok
+Data de envio		- post_date ok
+Data de entrega		- delivery_date (apenas visualização) ok
+Data de finalização	- date_finish ok
+
+Colocar validação no cliente (html).
+
+erro na ativação da conta por email (soapClient)
+
+--------------------- Rotinas de email: ---------------------
+
+Usuários:
+Cadastro realizado tanto por cliente, quanto por loja. (erro na ativação do usuário cliente).
+Aprovação do usuário loja. (Notificação loja) ok
+
+Produtos:
+Aprovação e reprovação de produtos. (Notificação loja) ok
+
+Vendas:
+Ordem de pedido, enviar o email com os dados do pedido e solicitando o pagamento caso não tenha sido realizado o pagamento. (Notificação cliente) ok
+Confirmação do pagamento, informar que a compra já foi efetuada, com os detalhes da ordem de compra. (Notificação cliente) ok
+Atualização do produto, envio com informação da data e codigo de rastreio (Notificação cliente) ok 19:25 16/07/2017
+Recebe um email caso o cliente altere o status para entregue. (Notificação cliente) ok 19:42 16/07/2017
+
+Recebe o email quando o cliente gera um pedido de compra sem pagamento (Notificação loja) ok 18:23 16/07/2017
+Recebe um email caso o cliente tenha pago o pedido de compra (Notificação loja) ok 18:45 16/07/2017
+// Duvida: após o envio no correio, a data da postagem é de acordo com o dia do envio do correio ou o dia da atualização do sistema?
+Recebe um email quando ele enviar, dizendo a data de quando ele enviou e o codigo de rastreamento (Notificação loja) ok 19:25 16/07/2017
+Recebe um email caso o cliente altere o status para entregue. (Notificação loja) ok 19:42 16/07/2017
+
+Módulo Usuário:
+
+2- Verificar toda as checagens de existencia de usuario, padronizar todas e observar as comparações na controller
+
+Módulo de Produtos:
+
+4- O vendedor só poderá adicionar um produto se todos os seus dados cadastrais estiverem preenchidos. (verificar quais dados são importantes).
+5- Campos obrigatórios: Nome, valor, categoria, tempo para produção, dimensões, descrição, quantidade disponível.
+6- Adicionar o campo e coluna peso ao formulário de cadastro do produto.
+7- Adicionar uma coluna de limite de estoque do produto.
+8- Update deverá ser realizado apenas para produtos que estiverem fora do processo de compra.
+9- Produtos em processo de compra poderão apenas ser bloqueados.
+10- Modificar as queries de status de produtos para a nova tabela status_product	
+
+	-------------- CUMPRIDAS --------------	
+
+botao de realizar pagamento na view myorders ok
+alterar para store o userStore ok
+administrador pode editar o perfil do usuário comprador e loja
+Disparar e-mail de aprovação e reprovação da loja
+Campos obrigatório para cadastro (loja):
+
+username,password, nome, nome da loja, cpf, rg, data de nascimento, cnpj, email, telefone, endereço completo, data de cadastro, ultimo acesso, ag, conta e banco,
+descrição, level, status. ok
+
+Primeiro o precadastro é realizado ok
+confirma email ok
+aprovação do adm ok
+acessa normal ok
+Nome da tela de pagamento deve ser check-out ok 17:23 03/07/2017
+Ao inves de sua conta para meus dados => dados pessoais, endereço e dados bancários. (Comprador a mesma nomenclatura) ok
+Criar uma tabela comments id, id_user, id_product, comentario. 19:50 03/07/2017 ok
+
+Módulo Usuário:
+
+1- Último acesso o padrão é data/hora? Apenas data? Formato da data? e/ou data/hora? ok
+2- Verificar toda as checagens de existencia de usuario, padronizar todas e observar as comparações na controller
+3- Administrador também altera as fotos dos usuários com perfil de loja? R= Não ok
+4- Administrador update dados da loja, descrição não funciona ok
+
+Módulo de Produtos:
+
+caso tente cadastrar um produto, todos os dados devem estar preenchidos. (revisar) ok 08:54 06/07/2017 saber quais são os campos relevantes
+
+Módulo de Vendas:
+
+from view realizar pagamento nao ta indo. ok
+
+view salestracking com erros ok
+
+Acrescentar na tabela de vendas uma coluna avaliação, e criar duas colunas total nota e total avaliadores. ok
+
+Checar se o usuario ja comprou na tabela orders, se true, checar se ja votou. ok11:31 11/07/2017
+
+dErro ao clicar no hiperlink name do produto em myOrders. ok 
+
+data de venda, data de envio, data de entrega (previsão) e data de finalização ok
+
+verificar a data limite se ja passou o tempo de produção, se sim, exibir para o loja em parênteses no vermelho a mensagem, atrasado ok
+
+verificar data de entrega, se maior e o cliente não tiver atualizado, exibir a opção para o usuário loja ok
+
+administrator/updateStore erro de atualização ok 12:11 14/07/2017
+
+Checar email de customer antes de atualização ok 12:11 14/07/2017
+
+administrator/updateCustomer erro de atualização ok 12:11 14/07/2017
+
+Colocar informações adicionais na view das ordens de pedidos em salesManagement ok

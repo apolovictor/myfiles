@@ -1,0 +1,46 @@
+Usuários
+Perfil 1 = Administrator
+Perfil 2 = Worker
+Perfil 3 = Parents
+Perfil 4 = Students
+
+Status -- Pedido
+
+1 = Entregue
+2 = Cancelado
+3 = Removido
+4 = Aguardando pagamento
+5 = Aguardando produ��o
+6 = Aguardando postagem
+7 = Postado
+
+
+Status -- Produtos
+1 = Ativo
+2 = Bloqueado
+3 = Removido
+
+ 
+Status -- Usu�rio
+0 = Aguardando Confirma��o
+1 = Ativo,Aprovado.
+2 = Bloqueado
+3 = Removido
+4 = Aguardando Aprova��o.
+5 = Aguardando Pagamento 
+
+level  --  status  --  descri��o
+1 	     0		artista inativo (aguardando confirma��o do email)
+1 	     4		artista inativo (aguardando aprova��o do administrador)
+1	     1		artista ativo (conta aprovada pelo administrador)
+1	     3		artista removido (conta removida)
+2	     0		cliente inativo (aguardando confirma��o de e-mail)
+2	     1 		cliente ativo (pode acessar o site com perfil de cliente)
+2	     3		cliente removido (ele removeu a conta)
+
+	Helpers
+ozza_heper:
+
+get_picture() 	= busca a figura de acordo com o id, e da um echo com 200 pixel de largura e altura.
+get_picture2() 	= busca a figura de acordo com o id, e da um echo com 100% de largura e altura.
+get_picture3()	= busca a figura de acordo com o id, e da um echo com 75px de largura e altura.

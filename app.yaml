@@ -1,0 +1,21 @@
+runtime: php55
+api_version: 1
+# encoding: utf-8
+handlers:
+- url: /user_guide
+  static_dir: /user_guide
+
+- url: /others/js/*
+  static_dir: /others/js
+
+- url: /others/css/*
+  static_dir: /others/css
+
+- url: /others/img/*
+  static_dir: /others/img
+
+- url: /
+  script: /index.php
+
+- url: /(.+)
+  script: /index.php
